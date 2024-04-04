@@ -1,0 +1,45 @@
+{
+  "id": "",
+  "caller_id": "+91 9828927272",
+
+  "call_connection": 1,
+
+  "verification_code": "",
+
+  "conversation_keys": {
+    "current_page": "",
+    "current_question": "",
+    "current_answer": ""
+  },
+
+  "confirmations": {
+    "otp_validation": 0,
+    "conversation": 0,
+    "review_info": 0,
+    "informed_consent": 1
+  },
+
+  "form_data": {
+    "personal_information": {
+      "first_name": "",
+      "last_name": "",
+      "middle_name": "",
+      "birth_date": "",
+      "gender": ""
+    },
+    "screening_questions": {
+      "feeling_sick": 1,
+      "allergic_to_medication": 1,
+      "medication_names": ""
+    },
+    "immunization_needs": {
+      "received_covid_vaccine": 1,
+      "received_shingles_vaccine": 1
+    },
+    "safety_assessment": {
+      "received_vaccine_in_past_four_weeks": 1,
+      "received_blood_transfusion_in_past_year": 1
+    }
+    
+  }
+}

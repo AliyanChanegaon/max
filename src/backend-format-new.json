@@ -1,0 +1,76 @@
+{
+  "id": "",
+  "caller_id": "+91 9828927272",
+  "call_connection": 1,
+
+  "verification_code": "",
+
+  "current_page": "", 
+
+  "personal_information": {
+    "first_name": "",
+    "last_name": "",
+    "birth_date": "",
+    "age": "",
+    "gender": "",
+    "home_address": "",
+    "zip_code": "",
+    "city": "",
+    "state": "",
+    "phone_number": "",
+    "confirmation": 3 
+  },
+
+  "screening_questions": {
+    "feeling_sick": "",
+    "allergic_to_medication": "",
+    "serious_reaction_or_fainted_after_vaccination": "",
+    "currently_pregnant_or_planning_pregnancy": "",
+    "received_vaccine": "",
+    "confirmation": 3
+  },
+
+  "conversation": [
+    {
+      "type": "heading",
+      "title": "personal_information",
+      "date": "2021-09-01T12:00:00Z"
+    },
+
+    {
+      "type": "chat",
+      "question": "What is your first name?",
+      "answer_key": "personal_information.first_name",
+      "date": "2021-09-01T12:00:00Z"
+    },
+    
+    {
+      "type": "chat",
+      "question": "What is your last name?",
+      "answer_key": "personal_information.last_name",
+      "date": "2021-09-01T12:00:00Z"
+    },
+
+    {
+      "type": "confirmation",
+      "answer_key": "personal_information.confirmation"
+    },
+
+    {
+      "type": "heading",
+      "title": "screening_questions",
+      "date": "2021-09-01T12:00:00Z"
+    },
+
+    {
+      "type": "chat",
+      "question": "Are you sick today?",
+      "answer_key": "screening_questions.feeling_sick",
+      "date": "2021-09-01T12:00:00Z"
+    },
+    {
+      "type": "confirmation",
+      "answer_key": "screening_questions.confirmation"
+    }
+  ]
+}
